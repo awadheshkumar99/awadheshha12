@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientist</title>
+    <style>
+        .main-container {
+            display: flex;
+            flex-direction: column;
+          }
+          
+          .row {
+            display: flex;
+          }
+          
+          .box {
+            width: 400px;
+            height: 500px;
+            background-color: #ccc;
+            margin: 10px;
+            transition: all 0.3s ease;
+            text-align:center;
+            font-size:20px;
+           color:white;
+           font-weight:700;
+          }
+          #box1{
+            background-image:url('astro.jpg');
+            background-size:cover;
+          }
+          #box2{
+            background-image:url('geo.jpg');
+            background-size:cover;
+          }
+          #box3{
+            background-image:url('evs.jpg');
+            background-size:cover;
+          }
+
+          .box:hover {
+            width: 430px;
+            height: 550px;
+          }
+        
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="row">
+          <div class="box" id="box1">
+            <h1>ASTRONOMY</h1>
+            <p>Astronomy is the scientific study of celestial objects such as stars, planets, galaxies, and the universe as a whole. It encompasses a wide range of phenomena, from the smallest subatomic particles to the largest cosmic structures.</p>
+          </div>
+          <div class="box" id="box2">
+            <h1>GEOLOGY</h1>
+            <p>Geology is the scientific study of the Earth's structure, composition, processes, and history. It encompasses a broad range of topics related to the Earth's materials, including rocks, minerals, fossils, landforms, and the dynamic processes that shape the planet. Geologists seek to understand the Earth's past, present, and future through the examination of geological features and the analysis of geological processes</p>
+          </div>
+          <div class="box" id="box3">
+            <h1>EVS</h1>
+            <p>Environmental Science is an interdisciplinary field that studies the interactions between the physical, chemical, and biological components of the environment. It encompasses a broad range of topics, including ecology, conservation, pollution, climate change, and sustainability. EVS aims to understand environmental issues, propose solutions, and promote a harmonious relationship between humans and the natural world.</p>
+          </div>
+          </div>
+</body>
+</html>
